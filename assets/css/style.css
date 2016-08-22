@@ -1,0 +1,55 @@
+.img-fluid, .carousel-inner > .carousel-item > img,
+.carousel-inner > .carousel-item > a > img {
+  display: block;
+  max-width: 1000px;
+  height: 300px;
+}
+
+h1{
+	color:teal;
+	background-color:rgba(0, 10, 150, 0.58);
+	margin:0 150px;
+	border-radius:30px;
+
+
+}
+
+h2,p{
+	text-align:center;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+body{
+
+	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/6b/50/2f/6b502f4f0cbb66f8634604b72d772f9b.jpg");
+}
+
+
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+}
+
+
+.alert alert-danger {background-color: #ff9800;}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 40px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
