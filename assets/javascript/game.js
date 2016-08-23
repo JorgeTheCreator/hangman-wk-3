@@ -13,22 +13,22 @@ var blanksAndSuccesses = [];
 
 var wrongLetter=[];
 
-//Game Counter
+//-----------------------------------------------------Game Counter
 
 var winCount = 0;
 var lossCount = 0;
 var guessesLeft = 9;
-// Funcitons
+// ------------------------------------------------------Funcitons
 //-------------------------------------------------
 
 function startGame(){
 //note for mysself math.randon generates a random number between 0.0 to 0.9
-// then multiplyes it be the lent *4
+// 
 selectedWord = wordOptions[Math.floor(Math.random() * wordOptions.length)];
 lettersInWord = selectedWord.split("");
 numBlanks= lettersInWord.length;
 
-//Reset
+//---------------------------------------------------------Reset
 guessesLeft = 9;
 wrongLetter = [];
 blanksAndSuccesses =[];
@@ -44,7 +44,7 @@ document.getElementById("winCounter").innerHTML = winCount;
 document.getElementById("lossCounter").innerHTML = lossCount;
 
 
-//testing debugging
+//-----------------------------------------------------testing debugging
 console.log(selectedWord);
 console.log(lettersInWord);
 console.log(numBlanks);
